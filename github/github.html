@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<title>Sign In</title>
+</head>
+
+<body>
+	<div class="main">
+		<img class="logo" src="logo.png" alt="">
+		<h1>Sign in to GitHub</h1>
+		<div class="card">
+			<form action="">
+				<div class="input-box">
+					<label for="username">Username or email address</label>
+					<input type="text">
+				</div>
+				<div class="input-box">
+					<div class="password-row">
+						<label for="password">Password</label>
+						<a href="">
+							Forgot password?
+						</a>
+					</div>
+					<input type="password">
+				</div>
+				<input class="submit" type="submit" value="Sign in">
+			</form>
+		</div>
+		<div class="box">
+			New to GitHub? <a href="">Create an account</a>.
+		</div>
+		<div class="contact-row">
+			<a href="">Terms</a>
+			<a href="">Privacy</a>
+			<a href="">Security</a>
+			<span>Contact GitHub</span>
+		</div>
+	</div>
+
+	<style>
+		body {
+			font-family: Arial;
+			font-size: 14px;
+		}
+
+		.logo {
+			width: 60px;
+		}
+
+		.main {
+			height: 100vh;
+			width: 100vw;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+
+		.card {
+			background: #F6F8FA;
+			border: 1px solid #E2E6EB;
+			display: flex;
+			flex-direction: column;
+			border-radius: 5px;
+			padding: 15px 20px;
+
+		}
+
+		.input-box {
+			display: flex;
+			flex-direction: column;
+			margin-bottom: 20px;
+		}
+
+		.password-row {
+			display: flex;
+			width: 100%;
+			justify-content: space-between;
+
+		}
+
+		#F8F9FA label {
+			margin-bottom: 10px;
+		}
+
+		input {
+			padding: 6px 6px;
+			border-radius: 8px;
+			border: 1px solid #E2E6EB;
+			width: 260px;
+		}
+
+		.submit {
+			width: 100%;
+			background: #2C974B;
+			padding: 10px 10px;
+			color: #FFFFFF;
+		}
+
+		h1 {
+			font-weight: normal;
+			font-size: 24px;
+			margin: 20px 10px;
+		}
+
+		a {
+			text-decoration: none;
+			color: #1769DA;
+		}
+
+		a:active {
+			color: #1769DA;
+		}
+
+		.box {
+			border: 1px solid #E2E6EB;
+			border-radius: 5px;
+			padding: 15px 45px;
+			margin-top: 20px;
+		}
+
+		.contact-row {
+			margin-top: 80px;
+			display: flex;
+			justify-content: center;
+		}
+
+		.contact-row a {
+			font-size: 14px;
+			margin: 0 10px;
+		}
+
+		.contact-row span {
+			font-size: 14px;
+			margin: 0 10px;
+			color: #6f6f6f;
+		}
+	</style>
+</body>
+
+</html>
+
